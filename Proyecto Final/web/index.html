@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    
+    <head>
+        <title>Tienda Online</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Style.css"/> 
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
+    </head>
+    <body style="background-color:#B4CBD9;">
+        
+        <h1 align="center" style="font-size:42px">Tienda de electronica Online!</h1>
+        <div id="container">
+ <ul id="button">
+ <li><a href=index.html>Inicio</a></li>
+ <li><a href=Categorias.jsp>Buscar por categoria</a></li>
+ <li><a href=Carrito.jsp>Ver carrito</a></li>
+ </ul>
+        </div> <br>
+        <form action="TiendaControlador" method="post">
+            <p align="center">
+                <label>¿Que estas buscando?</label> <input type="text" name="campoBuscar" size="35">
+            <input align="center" type="submit" value="Buscar" name="campoBusqueda2">
+            <input type="hidden" name="accion" value="buscar">
+            </p><br>
+        </form>
+        <p style="font-size:23px">
+            Bienvenido a esta tienda online, por favor selecciona una seccion o busca directamente en el cuadro de texto el articulo que deseas buscar.
+    </p>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+.quitar-float{
+	float: none;
+}
+.space-top{
+	margin-top: 100px
+}
+.Comfortaa{
+	font-family: 'Comfortaa', cursive;
+}
+.gris{
+	background-color: #eee;
+}
+.padding-largo{
+	padding:  5px 10px;
+}
+.grande{
+	font-size: 4em;
+}
+.azul{
+	color: #3995AD;
+}
+.no-lista{
+	margin: 0px;
+	padding: 0px;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+.no-lista li{
+	list-style-type: none;
+}
+.espacio-derecha{
+	margin-right: 1em;
+}
+.a, .azul{
+	color: #009FFF;
+}
+.quitar-derecha{
+margin-left: -80em;
+}
+#button {
+ padding: 0;
+ }
+ 
+Este código elimina el padding que se puede crear por defecto en una lista de elementos, en este caso nuestro menú.
+ 
+Por defecto, estas listas se crean de forma vertical, pero nuestro menú tiene que ser horizontal, así que le diremos que se pongan en línea usando “display: inline.”
+ 
+#button li {
+ display: inline;
+ }
+#button li a {
+	 font-family: Arial;
+ font-size: 11px;
+ text-decoration: none;
+ float: left;
+ padding: 10px;
+ background-color: #2175bc;
+ color: #fff;
+ display: inline;
+ }
+ #button li a:hover {
+ background-color: #2586d7;
+ margin-top: -2;
+ padding-bottom: 12px;]
+ }
